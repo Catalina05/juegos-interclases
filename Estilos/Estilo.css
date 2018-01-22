@@ -1,0 +1,470 @@
+a:link{   
+ text-decoration:none;   
+}
+
+caption{
+  font-size: 20px;
+  font-family: 'Arial', sans-serif;
+}
+
+.Cay{
+	width: auto;
+	height: auto;
+	line-height: -20px;
+	border-collapse: collapse;
+	border-spacing: 50px;
+	float: center;
+	margin-top: -20px;
+	margin-left: 220px;
+	font-size: 25px;
+}
+
+.Ca{
+	width: auto;
+	height: auto;
+	line-height: 90px;
+	border-collapse: collapse;
+	border-spacing: 50px;
+	float: center;
+	margin-top: 30px;
+	margin-left: -60px;
+	font-size: 25px;
+}
+
+.Cal{
+background: rgba(241,111,92,1);
+background: -moz-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(200,255,244,1) 0%, rgba(250,200,255,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(241,111,92,1)), color-stop(0%, rgba(200,255,244,1)), color-stop(100%, rgba(250,200,255,1)));
+background: -webkit-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(200,255,244,1) 0%, rgba(250,200,255,1) 100%);
+background: -o-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(200,255,244,1) 0%, rgba(250,200,255,1) 100%);
+background: -ms-linear-gradient(left, rgba(241,111,92,1) 0%, rgba(200,255,244,1) 0%, rgba(250,200,255,1) 100%);
+background: linear-gradient(to right, rgba(241,111,92,1) 0%, rgba(200,255,244,1) 0%, rgba(250,200,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f16f5c', endColorstr='#fac8ff', GradientType=1 );
+}
+
+.tab_{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: 580px;
+	height: 100px;
+	line-height: 45px;
+	border-collapse: collapse;
+	border-spacing: 50px;
+	float: center;
+	margin-top: -323px;
+	margin-left:620px;
+}
+
+.tab_ th{
+	border: 1px solid;
+    text-align: center;
+}
+
+.tabl-{
+	width: 50px;
+	height: 0px;
+	background: #C8FFF4;
+	margin-top: -10px;
+	margin-left: -25px;
+}
+
+.tabl_{
+	width: 50px;
+	height: 0px;
+	background: #FAC8FF;
+	margin-top: -10px;
+	margin-left: -20px;
+}
+
+.tab{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: auto;
+	height: auto;
+	line-height: 100px;
+	border-collapse: collapse;
+	border-spacing: 50px;
+	float: center;
+	margin-top: 10px;
+	margin-left:90px;
+}
+
+.tab th{
+	border: 1px solid;
+    text-align: left;
+}
+
+.ta_{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: 580px;
+	height: 10px;
+	line-height: 45px;
+	border-collapse: collapse;
+	border-spacing: 50px;
+	float: center;
+	margin-top: -1px;
+	margin-left:-1px;
+}
+
+.ta_ th{
+	border: 1px solid;
+    text-align: center;
+}
+
+.ta th{
+	border: 1px solid;
+    text-align: center;
+}
+
+.table th{
+	border: 1px solid;
+    text-align: center;
+}
+.ta{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: 580px;
+	height: 10px;
+	line-height: 45px;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	float: center;
+	margin-top: 0px;
+	margin-left:0px;
+}
+
+.table{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: 580px;
+	height: 10px;
+	line-height: 36px;
+	border-collapse: collapse;
+	border-spacing: 5px;
+	float: center;
+	margin-top: 0px;
+	margin-left:0px; 
+}
+
+.tabla{
+	border: 1px solid;
+	box-sizing: border-box;
+	width: 400px;
+	height: 120px;
+	line-height: 30px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	float: center;
+	margin-top: 50px;
+	margin-left: 400px; 
+}
+
+.tabla td{
+	color: #FFF154 ;
+}
+
+#lif th{
+	border: 0px solid;
+    font-size: 25px;
+}
+
+.tabl{
+	width: 1200px;
+	height: 10px;
+	line-height: 100px;
+	border-width: 10px; 
+	border-collapse: separate;
+	border-spacing: 0px;
+	font-size: 30px;
+	float: center;
+}
+
+
+#transBox{
+	background: rgb(0,0,0,0.2);
+	border-radius: 15px 15px 0;
+	box-sizing: border-box;
+	color: #333;
+	float: center;
+}
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Open sans', sans-serif;
+	background: url();
+}
+
+ul{
+	list-style: none;
+}
+
+.wrap{
+	width: 100%;
+	max-width: 1270px;
+	margin: auto;
+}
+
+.miswitch{
+	border-radius: 20px;
+	color: #000;
+	position: relative;
+	margin: 0px auto 50px;
+	width: 250px;
+	overflow: hidden;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.miswitch a{
+	font-size: 30px;
+	z-index: 5;
+	position: relative;
+	width: 53%;
+	text-align: center;
+	cursor: pointer;
+}
+
+.swicht-btn{
+	position: absolute;
+	background:;
+	width: 50%;
+	height: 90%;
+	border-radius: 20px;
+	top: 2px;
+	left: 2px;
+	z-index: 1;
+	transition: all .5s;
+}
+
+.on{
+	left: 97px;
+}
+
+/* Tabla de precio*/
+
+.pricing-wrap{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.pricing-table{
+	width: 32%;
+	transition: transform .5s ease;
+
+	-webkit-perspective: 2000px;
+	perspective: 2000px;
+}
+
+.pricing-table:hover{
+	transform: scale(1.07);
+}
+
+.pricing-table-cont{
+	background: #fff;
+	text-align: center;
+	position: relative;
+	height: 500px;
+
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+
+	transition: .3s ease;
+}
+
+.pricing-table-month , .pricing-table-year{
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #fff;
+}
+
+.pricing-table-year{
+	transform: rotateY(180deg);
+}
+
+.rotando-tabla{
+	transform: rotateY(180deg);
+}
+
+.pricing-table-head{
+	color: #173D50;
+	padding: 30px 0px;
+}
+
+.pricing-table-head h2{
+	font-size: 16px;
+	letter-spacing: 5px;	
+	font-weight: bold;
+}
+
+.pricing-table-head h3{
+	font-size: 60px;
+	font-weight: 400;
+	display: inline;
+}
+
+.pricing-table-head h3 sup, .pricing-table-head h3 sub{
+	font-size: 20px;
+	color: #ABB8C0;
+	font-weight: 600;
+}
+
+.pricing-table-head h3 sub{
+	font-size: 13px;
+}
+
+.pricing-table-head.estandar-title h2,
+.pricing-table-head.estandar-title h3,
+.pricing-table-head.estandar-title h3 sup,
+.pricing-table-head.estandar-title h3 sub{
+	color: #E97D68;
+}
+
+.pricing-table-list li{
+	background: #F1F3F5;
+	padding: 31px 0;
+}
+
+.pricing-table-list li:nth-child(2n){
+	background: #fff;
+}
+
+.pricing-table-button{
+	display: block;
+	width: 100%;
+	padding: 20px 0;
+	background: #0C1F28;
+	color: #fff;
+	margin-top: 3px;
+}
+
+.pricing-table-button.estandar{
+	background: #E97D68;
+}
+
+/* RESPONSIVE ===============================  */
+@media screen and (max-width: 750px){
+	.pricing-table{
+		width: 72%;
+		margin-bottom: 20px;
+	}
+
+	.pricing-wrap{
+		justify-content: center;
+	}
+
+	.pricing-table:hover{
+		transform: scale(1.0) ;
+	}
+}
+
+@media screen and (max-width: 500px){
+	.pricing-table{
+		width: 90%;
+	}
+}
+
+/*Formulario*/
+.Form{
+    margin: 0;
+    padding: 0;
+    background: url(Ars.png);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
